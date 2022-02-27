@@ -57,7 +57,7 @@ public class S3ImageService implements ImageService {
                         .build(),
                 RequestBody.fromFile(file)
         );
-        return null;
+        return fileName;
     }
 
     @Override
